@@ -1,0 +1,243 @@
+.shape p {
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.ladki {
+    transition: color ease-in 2s;
+    font-family: desporm;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.ladki>img {
+    width: 100%;
+}
+
+.shape,
+.ladki>a{
+    color: white;
+    position: absolute;
+}
+
+.shape {
+    line-height: 1rem;
+    top: 19%;
+    left: 8%;
+   color:rgba(255, 255, 255, 0.899);
+   background-color:rgba(56, 53, 53, 0.761);
+   border-radius: 12px;
+}
+
+.ladki>a {
+    top: 40%;
+    left: 10%;;
+}
+
+.ladki>a:hover {
+    color: orange;
+    padding: 0 1vh 0 0;
+    border-radius: 12px;
+    background-color: black;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.shape:hover {
+    line-height: 1rem;
+    top: 19%;
+    left: 8%;
+    color:rgb(255, 255, 255);
+    padding: 0 1vh;
+    border-radius: 12px;
+    background-color: rgba(56, 53, 53, 0.405);
+    transform: scale(1.1);
+}
+
+.ladkamatter {
+    font-family: desporm;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 50px;
+    position: relative;
+    display: flow-root;
+}
+.Ladka{
+    color:#ffffff49;
+    font-size: 50px;
+    line-height: 3rem;
+}
+.ladkamatter>h1{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 8%;
+    right: 0%;
+}
+
+.rate {
+    color: rgba(255, 166, 0, 0.129);
+}
+
+.ladkamatter>img{
+    float: left;
+}
+
+.Ladka:hover{
+    color: orange;
+    border-radius: 12px;
+    background-color: rgba(21, 19, 19, 0.538);
+    transform: scale(1.1);
+    display: inline-block;
+    right: 50px;
+    .improves {
+        color: cyan;
+    }
+
+    .rate {
+        color: #fff;
+    }
+}
+
+main>h1 {
+    font-family: desporm;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.me {
+    font-size: 100px;
+}
+
+.me:hover {
+    color: rgb(22, 174, 245);
+}
+
+.push {
+    color: orange;
+}
+
+.push:hover {
+    color: deepskyblue;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: desporm;
+    font-size: 30px;
+    color: rgb(201, 236, 4);
+    margin: 0 2em;
+}
+
+.choose img {
+    width: 100px;
+    height: 100px;
+}
+
+main h2 {
+    font-family: desporm;
+}
+
+.plan {
+    margin: 0 8em;
+    color: #fff;
+    display: flex;
+    font-family: desporm;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan img {
+    width: 100px;
+    height: 100px;
+}
+
+.plan h2 {
+    font-size: 50px;
+}
+
+.plan p {
+    font-size: 30px;
+}
+@media screen and (max-width: 400px) {
+    .ladkamatter,
+    .shape,
+    main a {
+        line-height: 0.2rem;
+        font-size: 20px;
+    }
+
+    .shape {
+        top: 0;
+    }
+    .me {
+        font-size: 70px;
+    }
+    .ladkamatter>h1{
+        font-size: 14px;
+        top: 10%;
+    }
+    .ladkamatter:hover h1{
+        right: 13px;
+    }
+    main a {
+        top: 40%;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ladkamatter,
+    .shape,
+    main a {
+        line-height: 0.2rem;
+        font-size: 20px;
+    }
+
+    .shape {
+        top: 0;
+    }
+    .me {
+        font-size: 70px;
+    }
+    .ladkamatter>h1{
+        font-size: 24px;
+    }
+    main a {
+        top: 40%;
+        left: 10%;
+    }
+}
+@media screen and (max-width:992px) {
+
+    .choose,
+    .plan {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .choose h2,
+    .plan h2 {
+        margin: 10px 0;
+    }
+
+    .choose p,
+    .plan p {
+        margin: 6px 0;
+    }
+
+    .me {
+        font-size: 76px;
+    }
+
+    main h1 {
+        font-size: 50px;
+    }
+
+    
+}
